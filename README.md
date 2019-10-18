@@ -59,4 +59,4 @@ See `data/preprocessed/`.
 
 We used 7 datasets: Five of them are from the UCI Machine Learning Repository (tic-tac-toc, car evaluation, monk1, monk2, monk3). 
 The other two datasets are the ProPublica recidivism data set and the Fair Isaac (FICO) credit risk datasets. 
-We predict which individuals are arrested within two years of release (`${N = 7,215}$`) on the recidivism data set and whether an individual will default on a loan for the FICO dataset. 
+We predict which individuals are arrested within two years of release (`{N = 7,215}`) on the recidivism data set and whether an individual will default on a loan for the FICO dataset. 
