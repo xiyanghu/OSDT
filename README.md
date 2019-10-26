@@ -1,5 +1,5 @@
 # Optimal Sparse Decision Trees (OSDT)
-This accompanies the paper, "Optimal Sparce Decision Trees" by Xiyang Hu,
+This accompanies the paper, "Optimal Sparse Decision Trees" by Xiyang Hu,
 Cynthia Rudin, and Margo Seltzer.
 
 It appeared in the [2019 NeurIPS conference](https://nips.cc/Conferences/2019)
