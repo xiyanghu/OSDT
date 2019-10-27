@@ -6,6 +6,7 @@ It appeared in the [2019 NeurIPS conference](https://nips.cc/Conferences/2019)
 
 * [Overview video](https://youtu.be/UMjMQaH508M)
 * [NeurIPS poster](doc/OSDT_NIPS_Poster.pdf)
+* [NeurIPS slides](doc/NeurIPSSlides.pdf)
 
 ### Dependencies
 
