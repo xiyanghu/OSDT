@@ -1,4 +1,9 @@
 # Optimal Sparse Decision Trees (OSDT)
+
+![GitHub Repo stars](https://img.shields.io/github/stars/xiyanghu/OSDT?style=social)
+![License](https://img.shields.io/github/license/xiyanghu/OSDT?style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/hu_xiyang?style=social)
+
 This accompanies the paper, ["Optimal Sparse Decision Trees"](https://arxiv.org/abs/1904.12847) by Xiyang Hu,
 Cynthia Rudin, and Margo Seltzer.
 
