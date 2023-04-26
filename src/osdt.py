@@ -344,7 +344,7 @@ class OSDT:
 
     Parameters
     ----------
-    lamb : float
+    lamb : float, optional (default=0.1)
         The regularization parameter lambda of the objective function.
     prior_metric : {'objective', 'bound', 'curiosity', 'entropy', 'gini', 'FIFO'}, optional (default='curiosity')
         The scheduling policy used to determine the priority of leaves:
@@ -393,7 +393,7 @@ class OSDT:
     >>> prediction = model.predict(x_test, y_test)
     """
     
-    def __init__(self, lamb, prior_metric="curiosity", MAXDEPTH=float('Inf'), MAX_NLEAVES=float('Inf'), niter=float('Inf'),
+    def __init__(self, lamb=0.1, prior_metric="curiosity", MAXDEPTH=float('Inf'), MAX_NLEAVES=float('Inf'), niter=float('Inf'),
                  logon=False, support=True, incre_support=True, accu_support=True, equiv_points=True,
                  lookahead=True, lenbound=True, R_c0=1, timelimit=float('Inf'), init_cart=True,
                  saveTree=False, readTree=False):
@@ -401,7 +401,7 @@ class OSDT:
 
         Parameters
         ----------
-        lamb : float
+        lamb : float, optional (default=0.1)
             The regularization parameter lambda of the objective function.
         prior_metric : {'objective', 'bound', 'curiosity', 'entropy', 'gini', 'FIFO'}, optional (default='curiosity')
             The scheduling policy used to determine the priority of leaves:
@@ -466,8 +466,10 @@ class OSDT:
 
         Parameters
         ----------
-        x : The features of the training data.
-        y : The labels of the training data.
+        x : ndarray of shape (ndata, nfeature)
+            The features of the training data.
+        y : ndarray of shape (ndata,)
+            The labels of the training data.
 
         Returns
         -------
@@ -888,8 +890,10 @@ class OSDT:
 
         Parameters
         ----------
-        x : The features of the data.
-        y : The labels of the data. Optional
+        x : ndarray of shape (ndata, nfeature)
+            The features of the training data.
+        y : ndarray of shape (ndata,)
+            The labels of the training data.
 
         Returns
         -------
