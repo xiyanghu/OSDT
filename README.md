@@ -47,7 +47,7 @@ CLASS osdt.OSDT(lamb=0.1, prior_metric="curiosity", MAXDEPTH=float('Inf'), MAX_N
  
  * **lamb** : float, optional (default=0.1)\
      The regularization parameter lambda of the objective function.
- prior_metric : {'objective', 'bound', 'curiosity', 'entropy', 'gini', 'FIFO'}, optional (default='curiosity')
+ * **prior_metric** : {'objective', 'bound', 'curiosity', 'entropy', 'gini', 'FIFO'}, optional (default='curiosity')\
      The scheduling policy used to determine the priority of leaves:
      - 'objective' will use the objective function
      - 'bound' will used the lower bound
